@@ -39,7 +39,6 @@ body {
   width: 1000px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
   background-color: white;
 }
 .item_header {
@@ -50,12 +49,19 @@ body {
   font-weight: 600;
   border-radius: 8px;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item_header > div {
+  align-items: center;
 }
 .item_wrap {
   display: flex;
 }
 .item_wrap > div {
   text-align: center;
+  padding: 10px 0;
 }
 .subject_no {
   width: 10%;
