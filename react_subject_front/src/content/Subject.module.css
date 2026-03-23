@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+.content_wrap {
+  width: 1500px;
+  min-height: 500px;
+  margin: 0 auto;
+  display: flex;
+  gap: 100px;
+}
+.content_wrap > div {
+  padding: 8px;
+  border-radius: 8px;
+}
+.side_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: white;
+}
+.side_menu > select {
+  padding: 4px;
+  width: 100%;
+  border-radius: 4px;
+}
+.input_wrap {
+  display: flex;
+  gap: 4px;
+}
+.input_wrap > input {
+  border-radius: 4px;
+  border: 1px solid black;
+}
+.select {
+  margin: 0;
+  width: 200px;
+}
+.subject_list_wrap {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+}
+.item_header {
+  height: 40px;
+  background-color: royalblue;
+  color: white;
+  align-items: center;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+}
+.item_wrap {
+  display: flex;
+}
+.item_wrap > div {
+  text-align: center;
+}
+.subject_no {
+  width: 10%;
+}
+.subject_title {
+  width: 35%;
+}
+.subject_instructor {
+  width: 15%;
+}
+.subject_category {
+  width: 15%;
+}
+.subject_level {
+  width: 15%;
+}
+.subject_count {
+  width: 10%;
+}
+.btn {
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.item_list {
+  border-bottom: 1px solid lightgray;
+}
