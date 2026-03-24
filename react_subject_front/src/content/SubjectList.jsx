@@ -68,7 +68,7 @@ const SubjectList = () => {
               setCategory(e.target.value);
             }}
           >
-            <option value={0}>전체</option>
+            <option value={0}>과목 분류</option>
             <option value={1}>백엔드</option>
             <option value={2}>프론트엔드</option>
             <option value={3}>DB</option>
@@ -80,7 +80,7 @@ const SubjectList = () => {
               setLevel(e.target.value);
             }}
           >
-            <option value={0}>전체</option>
+            <option value={0}>난이도 분류</option>
             <option value={1}>초급</option>
             <option value={2}>중급</option>
             <option value={3}>고급</option>
