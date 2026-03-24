@@ -55,7 +55,7 @@ const SubjectList = () => {
               setOrderType(e.target.value);
             }}
           >
-            <option value={1}>작성순</option>
+            <option value={1}>정렬기준</option>
             <option value={2}>난이도 오름차순</option>
             <option value={3}>난이도 내림차순</option>
             <option value={4}>수강인원 오름차순</option>
