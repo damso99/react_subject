@@ -91,10 +91,7 @@ const SubjectList = () => {
         </div>
         <div className={styles.subject_list_wrap}>
           <div className={`${styles.item_wrap} ${styles.item_header}`}>
-            <div className={styles.subject_no}>
-              강의 번호
-              <ArrowDropDownIcon />
-            </div>
+            <div className={styles.subject_no}>강의 번호</div>
             <div className={styles.subject_title}>강의 제목</div>
             <div className={styles.subject_instructor}>강사</div>
             <div className={styles.subject_category}>분류</div>

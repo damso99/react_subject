@@ -54,7 +54,6 @@ body {
   justify-content: center;
 }
 .item_header > div {
-  align-items: center;
 }
 .item_wrap {
   display: flex;
